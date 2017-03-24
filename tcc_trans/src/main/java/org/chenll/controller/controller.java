@@ -3,7 +3,6 @@ package org.chenll.controller;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiParam;
 import org.chenll.entity.TPerson;
 import org.chenll.service.MyService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -56,7 +55,7 @@ public class controller {
             @ApiImplicitParam(name = "age", value = "年龄", required = true, dataType = "Integer",paramType = "query")
     })
     @RequestMapping(value = "/person/add-field",method = RequestMethod.GET)
-    public String personAdd( @RequestParam String name, @RequestParam int age){
+    public String personAdd(@RequestParam String name, @RequestParam int age){
         TPerson person = new TPerson();
         person.setName(name);
         person.setAge(age);

@@ -1,0 +1,9 @@
+此用例集成了mybatis,springboot,swagger
+建表：
+CREATE TABLE `t_person` (
+     `id` int(11) NOT NULL AUTO_INCREMENT,
+     `name` char(20) DEFAULT NULL,
+     `age` int(11) DEFAULT NULL,
+     `birth` datetime DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
+     PRIMARY KEY (`id`)
+ ) ENGINE=InnoDB DEFAULT CHARSET=utf-8;
