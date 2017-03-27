@@ -1,8 +1,10 @@
 package org.chenll.service;
 
 
-import org.chenll.dao.TPersonMapper;
+import org.chenll.dao.master.TPersonMapper;
+import org.chenll.dao.sencond.TStudentMapper;
 import org.chenll.entity.TPerson;
+import org.chenll.entity.TStudent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -18,6 +20,9 @@ public class MyService {
 
     @Autowired
     private TPersonMapper tPersonMapper;
+
+    @Autowired
+    private TStudentMapper tStudentMapper;
 
 
     public String doService(){
@@ -35,6 +40,22 @@ public class MyService {
         person2.setBirth(new Date());
         person2.setName("cd");
 
+
         tPersonMapper.insert(person2);
+    }
+
+
+    @Transactional(value = "sencondTransaction")
+    public void addStudent(TStudent student){
+        tStudentMapper.insert(student);
+
+        TStudent tStudent2 = new TStudent();
+        tStudent2.setAge(55);
+        tStudent2.setName("zhijia");
+        tStudent2.setBirth(new Date());
+
+
+        tStudentMapper.insert(tStudent2);
+
     }
 }

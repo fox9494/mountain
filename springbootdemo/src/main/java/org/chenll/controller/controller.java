@@ -5,6 +5,7 @@ import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.chenll.entity.TPerson;
+import org.chenll.entity.TStudent;
 import org.chenll.service.MyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -46,6 +47,14 @@ public class controller {
     @RequestMapping(value = "/person/add",method = RequestMethod.POST)
     public String personAdd(@RequestBody TPerson person){
         myService.addPerson(person);
+        return "ok";
+    }
+
+    @ApiOperation(value = "添加测试用例,参数是对象",notes = "插入并测试事务,参数是对象")
+    @ApiImplicitParam(name = "student",value = "TStudent",required = true,dataType = "TStudent")
+    @RequestMapping(value = "/student/add",method = RequestMethod.POST)
+    public String studentAdd(@RequestBody TStudent student){
+        myService.addStudent(student);
         return "ok";
     }
 

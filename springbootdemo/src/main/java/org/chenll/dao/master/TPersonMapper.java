@@ -1,4 +1,4 @@
-package org.chenll.dao;
+package org.chenll.dao.master;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.chenll.entity.TPerson;
