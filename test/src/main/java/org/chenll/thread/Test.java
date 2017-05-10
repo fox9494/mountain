@@ -1,11 +1,10 @@
 package org.chenll.thread;
 
+import org.chenll.util.DateTimeUtils;
 import org.chenll.util.ListComparatorUtil;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.math.BigDecimal;
+import java.util.*;
 import java.util.function.Function;
 
 /**
@@ -14,18 +13,10 @@ import java.util.function.Function;
 public class Test {
 
     public static void main(String[] args) {
-        System.err.println("time:"+System.currentTimeMillis());
 
-        List<Site> siteList = new ArrayList<Site>();
-        siteList.add(new Site(9862.22));
-        siteList.add(new Site(100023.99));
-        siteList.add(new Site(12.56));
-        siteList.add(new Site(562.22));
-        siteList.add(new Site(0));
+        System.out.println(DateTimeUtils.str2Date("2017-05-07 00:00:00","yyyy-MM-dd HH:mm:ss").getTime());
 
-
-
-
+        System.out.println(System.currentTimeMillis());
 //        Collections.sort(siteList, new Comparator<Site>() {
 //            @Override
 //            public int compare(Site o1, Site o2) {
@@ -39,12 +30,8 @@ public class Test {
 //            }
 //        });
 
-        Collections.sort(siteList);
 
 
-        for (Site site : siteList) {
-            System.out.println("site = [" + site.getDistance() + "]");
-        }
     }
 
 
