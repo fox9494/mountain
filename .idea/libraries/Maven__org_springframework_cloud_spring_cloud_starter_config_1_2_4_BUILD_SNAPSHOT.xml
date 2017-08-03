@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.cloud:spring-cloud-starter-config:1.2.4.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://D:/maven-respository/repository/org/springframework/cloud/spring-cloud-starter-config/1.2.4.BUILD-SNAPSHOT/spring-cloud-starter-config-1.2.4.BUILD-20170624.070227-848.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-config/1.2.4.BUILD-SNAPSHOT/spring-cloud-starter-config-1.2.4.BUILD-20170803.010229-1155.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://D:/maven-respository/repository/org/springframework/cloud/spring-cloud-starter-config/1.2.4.BUILD-SNAPSHOT/spring-cloud-starter-config-1.2.4.BUILD-20170624.070227-848-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-config/1.2.4.BUILD-SNAPSHOT/spring-cloud-starter-config-1.2.4.BUILD-20170803.010229-1155-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://D:/maven-respository/repository/org/springframework/cloud/spring-cloud-starter-config/1.2.4.BUILD-SNAPSHOT/spring-cloud-starter-config-1.2.4.BUILD-20170624.070227-848-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-config/1.2.4.BUILD-SNAPSHOT/spring-cloud-starter-config-1.2.4.BUILD-20170803.010229-1155-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
