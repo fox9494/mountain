@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.2.8.BUILD-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://D:/maven-respository/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.2.8.BUILD-SNAPSHOT/spring-cloud-netflix-eureka-client-1.2.8.BUILD-20170624.074557-399.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/maven-respository/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.2.8.BUILD-SNAPSHOT/spring-cloud-netflix-eureka-client-1.2.8.BUILD-20170624.074557-399-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/maven-respository/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.2.8.BUILD-SNAPSHOT/spring-cloud-netflix-eureka-client-1.2.8.BUILD-20170624.074557-399-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

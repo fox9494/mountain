@@ -9,7 +9,7 @@
     <module>common</module>
     <module>test</module>
     <module>springbootdemo</module>
-      <module>tcc_trans</module>
+    <module>springboot-samples</module>
   </modules>
   <packaging>pom</packaging>
 
